@@ -85,7 +85,7 @@ export default function CookiePolicy() {
   );
 
   return (
-    <div>
+    <>
       <Head>
         <title>Cookie Policy - Green Tiger Markets</title>
       </Head>
@@ -95,6 +95,6 @@ export default function CookiePolicy() {
       />
       <CookiePolicyContent />
       <Footer />
-    </div>
+    </>
   );
 }
