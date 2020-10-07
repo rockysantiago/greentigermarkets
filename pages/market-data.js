@@ -52,7 +52,7 @@ export default function MarketData() {
   return (
     <>
       <Head>
-        <title>Green Tiger Markets - Market Data</title>
+        <title>Market Data - Green Tiger Markets</title>
       </Head>
       <MarketDataContent />
     </>

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { Container, Row, Col } from 'react-bootstrap';
 import Footer from '../components/Footer';
+import LogoRibbon from '../components/LogoRibbon';
 import styles from '../styles/Team.module.css';
 
 export default function Team() {
@@ -10,13 +11,7 @@ export default function Team() {
       <Container className="pb64">
         <Row>
           <Col sm={12}>
-            <div className="logo-ribbon">
-              <Link href="/">
-                <a>
-                  <img src="/logo_reverse_small1.svg" width="150" />
-                </a>
-              </Link>
-            </div>
+            <LogoRibbon />
           </Col>
         </Row>
         <Row>
@@ -218,7 +213,7 @@ export default function Team() {
   return (
     <>
       <Head>
-        <title>Green Tiger Markets - Team</title>
+        <title>Team - Green Tiger Markets</title>
       </Head>
       <TeamHeader />
       <TeamContent />
