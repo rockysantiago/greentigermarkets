@@ -1,0 +1,42 @@
+.footer-gtm {
+  background-color: #004b3d;
+  padding: 64px 0 32px 0;
+  color: white;
+}
+
+.footer-gtm .social-links a {
+  padding-top: 24px;
+  color: white;
+  font-size: 24px;
+  display: inline-block;
+  opacity: 0.4;
+}
+
+.footer-gtm .social-links a:hover {
+  color: white;
+}
+
+.footer-link-list {
+  list-style: none;
+  padding: 16px 0 0 0;
+  margin: 0;
+}
+
+.footer-link-list li a {
+  display: inline-block;
+  color: white;
+  padding-top: 3px;
+}
+
+.footer-link-list li a:hover {
+  color: white;
+}
+
+.footer-gtm .copyright-text {
+  padding-top: 64px;
+  opacity: 0.4;
+}
+
+.img:hover {
+  cursor: pointer;
+}
