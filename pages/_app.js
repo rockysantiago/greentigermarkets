@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'material-design-iconic-font/dist/css/material-design-iconic-font.min.css';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
