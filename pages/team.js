@@ -216,13 +216,13 @@ export default function Team() {
   );
 
   return (
-    <div>
+    <>
       <Head>
         <title>Green Tiger Markets - Team</title>
       </Head>
       <TeamHeader />
       <TeamContent />
       <Footer />
-    </div>
+    </>
   );
 }
