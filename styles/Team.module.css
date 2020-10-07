@@ -1,0 +1,22 @@
+.team-section {
+  background-image: linear-gradient(to bottom, #00a773, #01735d);
+  margin-bottom: -154px;
+  padding-bottom: 70px;
+}
+
+.team-content {
+  padding: 70px 0;
+}
+
+.team-label {
+  font-family: 'IBM Plex Serif', serif;
+  font-style: normal;
+}
+
+.team-background-image {
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 256px;
+  width: 256px;
+  display: inline-block;
+}
