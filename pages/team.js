@@ -203,6 +203,37 @@ export default function Team() {
                   </Col>
                 </Row>
               </Container>
+              <Container fluid className="p48 border-bottom">
+                <Row>
+                  <Col lg={4} className="text-center">
+                    <div
+                      className={`${styles['team-background-image']} thumbnail-round`}
+                      style={{
+                        backgroundImage: 'url(/team/mayette.jpg)',
+                        backgroundPosition: '50% 8%',
+                      }}
+                    />
+                  </Col>
+                  <Col lg={8}>
+                    <div
+                      className={`font-48 text-copy-2 mt32 text-500 ${styles['team-label']}`}
+                    >
+                      Mayette Cidro Cubil
+                    </div>
+                    <div className="font-21 text-copy-1 mt8">Partnerships</div>
+                    <p className="mt24">
+                      Mayette has been in the field of Marketing, Business
+                      Development, and Project Management for over 20 years. Her
+                      experience spans multinationals to start-ups. Mayette led
+                      the Starbucks wifi project in the Philippines and also
+                      grew the marketing channel for 3 countries for Western
+                      Union Singapore. Mayette’s success is built on her passion
+                      for serving clients and working to design custom
+                      commercial solutions for their needs.
+                    </p>
+                  </Col>
+                </Row>
+              </Container>
             </div>
           </Col>
         </Row>
